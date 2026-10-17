@@ -1,0 +1,77 @@
+/* Layout: a night shift monitor wall. A patient rail on the left, the timeline of due actions in the
+   centre, the evidence behind every sentence on the right; reports share the same grid. */
+:root {
+  --bg: #eef0f6;
+  --surface: #ffffff;
+  --surface-2: #f6f7fb;
+  --ink: #171a2b;
+  --muted: #5a6078;
+  --line: #d9dce8;
+  --accent: #383d9c;
+  --accent-soft: #e5e6f6;
+  --crit: #b3261e;
+  --crit-soft: #fbe9e7;
+  --warn: #9a5800;
+  --warn-soft: #fbf0dc;
+  --ok: #1d7448;
+  --ok-soft: #e2f3ea;
+  --chart-1: #4b52b5;
+  --chart-2: #c0532b;
+  --chart-3: #0f8a7a;
+  --chart-grid: #e6e8f0;
+  --font-display: "Literata", "Iowan Old Style", Georgia, serif;
+  --font-body: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  --font-data: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --r: 8px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0d0f1c; --surface: #151829; --surface-2: #1b1f33; --ink: #e7e8f2; --muted: #9ba0bb; --line: #2a2e47;
+    --accent: #a9abff; --accent-soft: #252857; --crit: #ff8a7d; --crit-soft: #3a1c1c; --warn: #f2b65a; --warn-soft: #382a14;
+    --ok: #66d49f; --ok-soft: #15301f; --chart-1: #7f83e6; --chart-2: #d0693f; --chart-3: #2fa592; --chart-grid: #23273d;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0d0f1c; --surface: #151829; --surface-2: #1b1f33; --ink: #e7e8f2; --muted: #9ba0bb; --line: #2a2e47;
+  --accent: #a9abff; --accent-soft: #252857; --crit: #ff8a7d; --crit-soft: #3a1c1c; --warn: #f2b65a; --warn-soft: #382a14;
+  --ok: #66d49f; --ok-soft: #15301f; --chart-1: #7f83e6; --chart-2: #d0693f; --chart-3: #2fa592; --chart-grid: #23273d;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.5;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+h1, h2, h3 { font-family: var(--font-display); font-weight: 650; text-wrap: balance; margin: 0; line-height: 1.2; }
+h1 { font-size: 1.45rem; }
+h2 { font-size: 1.15rem; }
+h3 { font-size: 1rem; }
+p { margin: 0; }
+button, input, select, textarea { font: inherit; color: inherit; }
+button { cursor: pointer; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.mono, .num { font-family: var(--font-data); font-variant-numeric: tabular-nums; }
+.label { font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+.muted { color: var(--muted); }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 14px 16px; min-width: 0; }
+.stack { display: flex; flex-direction: column; gap: 12px; }
+.row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+.chip { display: inline-flex; align-items: center; gap: 4px; border-radius: 999px; padding: 1px 9px; font-size: 0.78rem; border: 1px solid var(--line);
+  background: var(--surface-2); white-space: nowrap; }
+.chip.crit { background: var(--crit-soft); color: var(--crit); border-color: transparent; }
+.chip.warn { background: var(--warn-soft); color: var(--warn); border-color: transparent; }
+.chip.ok { background: var(--ok-soft); color: var(--ok); border-color: transparent; }
+.chip.accent { background: var(--accent-soft); color: var(--accent); border-color: transparent; }
+.cite { font-family: var(--font-data); font-size: 0.72rem; border: 1px solid var(--line); background: var(--surface-2); color: var(--accent);
+  border-radius: 4px; padding: 0 5px; margin-left: 3px; cursor: pointer; }
+.cite:hover, .cite.on { background: var(--accent-soft); border-color: var(--accent); }
+table { border-collapse: collapse; width: 100%; font-size: 0.88rem; }
+th { text-align: left; font-weight: 700; color: var(--muted); font-size: 0.75rem; letter-spacing: 0.04em; text-transform: uppercase; padding: 6px 8px; border-bottom: 1px solid var(--line); }
+td { padding: 6px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+td.n, th.n { text-align: right; font-family: var(--font-data); font-variant-numeric: tabular-nums; }
+.scroll-x { overflow-x: auto; }
+svg text { fill: var(--muted); font-family: var(--font-data); font-size: 10px; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
