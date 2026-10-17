@@ -1,0 +1,1692 @@
+{
+  "dev": {
+    "label": "development sites A to F, 2021 to 2024",
+    "attendances": 107658,
+    "given": 104557,
+    "overall": {
+      "median_min": 45.0,
+      "within_30": 0.2585,
+      "within_60": 0.6604,
+      "reassessed_within_30": 0.6177,
+      "plan_followed_when_visible": 0.9081,
+      "pethidine_given": 765,
+      "pethidine_sites": {
+        "D": 285,
+        "C": 253,
+        "F": 227
+      }
+    },
+    "groups": {
+      "plan": [
+        {
+          "group": "no plan visible",
+          "attendances": 63282,
+          "median_min": 51.0,
+          "within_30": 0.1898,
+          "within_60": 0.589,
+          "left_before_analgesia": 0.0286,
+          "reassessed_within_30": 0.5373
+        },
+        {
+          "group": "plan visible",
+          "attendances": 44376,
+          "median_min": 37.0,
+          "within_30": 0.3565,
+          "within_60": 0.7622,
+          "left_before_analgesia": 0.0291,
+          "reassessed_within_30": 0.7323
+        }
+      ],
+      "frequent_attender": [
+        {
+          "group": "fewer than five",
+          "attendances": 74275,
+          "median_min": 41.0,
+          "within_30": 0.3008,
+          "within_60": 0.7119,
+          "left_before_analgesia": 0.029,
+          "reassessed_within_30": 0.6157
+        },
+        {
+          "group": "five or more in past year",
+          "attendances": 33383,
+          "median_min": 55.0,
+          "within_30": 0.1644,
+          "within_60": 0.546,
+          "left_before_analgesia": 0.0285,
+          "reassessed_within_30": 0.6221
+        }
+      ],
+      "night": [
+        {
+          "group": "daytime",
+          "attendances": 81832,
+          "median_min": 44.0,
+          "within_30": 0.2721,
+          "within_60": 0.6775,
+          "left_before_analgesia": 0.0287,
+          "reassessed_within_30": 0.6153
+        },
+        {
+          "group": "22:00 to 07:00",
+          "attendances": 25826,
+          "median_min": 50.0,
+          "within_30": 0.2153,
+          "within_60": 0.6064,
+          "left_before_analgesia": 0.0293,
+          "reassessed_within_30": 0.6252
+        }
+      ],
+      "sex": [
+        {
+          "group": "female",
+          "attendances": 53709,
+          "median_min": 47.0,
+          "within_30": 0.2388,
+          "within_60": 0.6376,
+          "left_before_analgesia": 0.0287,
+          "reassessed_within_30": 0.6191
+        },
+        {
+          "group": "male",
+          "attendances": 53949,
+          "median_min": 43.0,
+          "within_30": 0.2781,
+          "within_60": 0.6832,
+          "left_before_analgesia": 0.0289,
+          "reassessed_within_30": 0.6163
+        }
+      ],
+      "age": [
+        {
+          "group": "50 and over",
+          "attendances": 20424,
+          "median_min": 44.0,
+          "within_30": 0.2757,
+          "within_60": 0.6801,
+          "left_before_analgesia": 0.0292,
+          "reassessed_within_30": 0.6218
+        },
+        {
+          "group": "under 50",
+          "attendances": 87234,
+          "median_min": 45.0,
+          "within_30": 0.2545,
+          "within_60": 0.6558,
+          "left_before_analgesia": 0.0287,
+          "reassessed_within_30": 0.6167
+        }
+      ],
+      "site": [
+        {
+          "group": "A",
+          "attendances": 24757,
+          "median_min": 41.0,
+          "within_30": 0.3085,
+          "within_60": 0.716,
+          "left_before_analgesia": 0.0286,
+          "reassessed_within_30": 0.6895
+        },
+        {
+          "group": "B",
+          "attendances": 26186,
+          "median_min": 51.0,
+          "within_30": 0.1964,
+          "within_60": 0.5905,
+          "left_before_analgesia": 0.027,
+          "reassessed_within_30": 0.6502
+        },
+        {
+          "group": "C",
+          "attendances": 11858,
+          "median_min": 46.0,
+          "within_30": 0.2497,
+          "within_60": 0.6551,
+          "left_before_analgesia": 0.0326,
+          "reassessed_within_30": 0.5359
+        },
+        {
+          "group": "D",
+          "attendances": 13250,
+          "median_min": 52.0,
+          "within_30": 0.1833,
+          "within_60": 0.5819,
+          "left_before_analgesia": 0.0285,
+          "reassessed_within_30": 0.4688
+        },
+        {
+          "group": "E",
+          "attendances": 20880,
+          "median_min": 39.0,
+          "within_30": 0.3356,
+          "within_60": 0.7372,
+          "left_before_analgesia": 0.0297,
+          "reassessed_within_30": 0.6882
+        },
+        {
+          "group": "F",
+          "attendances": 10727,
+          "median_min": 46.0,
+          "within_30": 0.247,
+          "within_60": 0.6566,
+          "left_before_analgesia": 0.0281,
+          "reassessed_within_30": 0.5093
+        }
+      ]
+    },
+    "adjusted_log_minutes": {
+      "intercept": {
+        "estimate": 3.821,
+        "se": 0.0052,
+        "ci95": [
+          3.8108,
+          3.8311
+        ],
+        "ratio": 45.648
+      },
+      "crowding": {
+        "estimate": 0.4884,
+        "se": 0.0085,
+        "ci95": [
+          0.4718,
+          0.5051
+        ],
+        "ratio": 1.63
+      },
+      "triage_cat2": {
+        "estimate": -0.2599,
+        "se": 0.0035,
+        "ci95": [
+          -0.2667,
+          -0.2531
+        ],
+        "ratio": 0.771
+      },
+      "triage_cat1": {
+        "estimate": -0.434,
+        "se": 0.0092,
+        "ci95": [
+          -0.4521,
+          -0.416
+        ],
+        "ratio": 0.648
+      },
+      "plan_visible": {
+        "estimate": -0.3379,
+        "se": 0.0037,
+        "ci95": [
+          -0.3453,
+          -0.3306
+        ],
+        "ratio": 0.713
+      },
+      "high_frequency_attender": {
+        "estimate": 0.3018,
+        "se": 0.0037,
+        "ci95": [
+          0.2946,
+          0.3091
+        ],
+        "ratio": 1.352
+      },
+      "night": {
+        "estimate": 0.1346,
+        "se": 0.004,
+        "ci95": [
+          0.1268,
+          0.1424
+        ],
+        "ratio": 1.144
+      },
+      "female": {
+        "estimate": 0.0758,
+        "se": 0.0034,
+        "ci95": [
+          0.0692,
+          0.0825
+        ],
+        "ratio": 1.079
+      },
+      "age_50_plus": {
+        "estimate": -0.0405,
+        "se": 0.0043,
+        "ci95": [
+          -0.0491,
+          -0.032
+        ],
+        "ratio": 0.96
+      },
+      "site_B": {
+        "estimate": 0.1406,
+        "se": 0.0051,
+        "ci95": [
+          0.1307,
+          0.1505
+        ],
+        "ratio": 1.151
+      },
+      "site_C": {
+        "estimate": 0.005,
+        "se": 0.0065,
+        "ci95": [
+          -0.0078,
+          0.0177
+        ],
+        "ratio": 1.005
+      },
+      "site_D": {
+        "estimate": -0.0136,
+        "se": 0.0065,
+        "ci95": [
+          -0.0264,
+          -0.0009
+        ],
+        "ratio": 0.986
+      },
+      "site_E": {
+        "estimate": -0.0536,
+        "se": 0.0053,
+        "ci95": [
+          -0.0639,
+          -0.0432
+        ],
+        "ratio": 0.948
+      },
+      "site_F": {
+        "estimate": -0.0672,
+        "se": 0.0067,
+        "ci95": [
+          -0.0804,
+          -0.0541
+        ],
+        "ratio": 0.935
+      }
+    },
+    "recovery": [
+      {
+        "effect": "crowding",
+        "true": 0.48,
+        "estimate": 0.4884,
+        "ci95": [
+          0.4718,
+          0.5051
+        ],
+        "covered": true
+      },
+      {
+        "effect": "triage_cat2",
+        "true": -0.26,
+        "estimate": -0.2599,
+        "ci95": [
+          -0.2667,
+          -0.2531
+        ],
+        "covered": true
+      },
+      {
+        "effect": "triage_cat1",
+        "true": -0.45,
+        "estimate": -0.434,
+        "ci95": [
+          -0.4521,
+          -0.416
+        ],
+        "covered": true
+      },
+      {
+        "effect": "plan_visible",
+        "true": -0.34,
+        "estimate": -0.3379,
+        "ci95": [
+          -0.3453,
+          -0.3306
+        ],
+        "covered": true
+      },
+      {
+        "effect": "high_frequency_attender",
+        "true": 0.3,
+        "estimate": 0.3018,
+        "ci95": [
+          0.2946,
+          0.3091
+        ],
+        "covered": true
+      },
+      {
+        "effect": "night",
+        "true": 0.13,
+        "estimate": 0.1346,
+        "ci95": [
+          0.1268,
+          0.1424
+        ],
+        "covered": true
+      },
+      {
+        "effect": "female",
+        "true": 0.08,
+        "estimate": 0.0758,
+        "ci95": [
+          0.0692,
+          0.0825
+        ],
+        "covered": true
+      },
+      {
+        "effect": "age_50_plus",
+        "true": -0.04,
+        "estimate": -0.0405,
+        "ci95": [
+          -0.0491,
+          -0.032
+        ],
+        "covered": true
+      }
+    ],
+    "counterfactual_all_plans_visible": {
+      "attendances_with_hidden_plan": 16751,
+      "within_30_now": 0.2585,
+      "within_30_if_visible": 0.2871
+    },
+    "km_grid": [
+      0,
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50,
+      55,
+      60,
+      65,
+      70,
+      75,
+      80,
+      85,
+      90,
+      95,
+      100,
+      105,
+      110,
+      115,
+      120,
+      125,
+      130,
+      135,
+      140,
+      145,
+      150,
+      155,
+      160,
+      165,
+      170,
+      175,
+      180
+    ],
+    "km": {
+      "plan visible": [
+        0.0,
+        0.0006,
+        0.0174,
+        0.0714,
+        0.1577,
+        0.2558,
+        0.3565,
+        0.4527,
+        0.5365,
+        0.6091,
+        0.6684,
+        0.7212,
+        0.7622,
+        0.7981,
+        0.8266,
+        0.8502,
+        0.87,
+        0.8859,
+        0.8997,
+        0.9105,
+        0.9252,
+        0.937,
+        0.9465,
+        0.9542,
+        0.9609,
+        0.9662,
+        0.971,
+        0.9753,
+        0.9788,
+        0.982,
+        0.9843,
+        0.9865,
+        0.9885,
+        0.99,
+        0.9916,
+        0.9928,
+        0.9935
+      ],
+      "no plan visible": [
+        0.0,
+        0.0001,
+        0.0044,
+        0.0229,
+        0.0622,
+        0.1199,
+        0.1898,
+        0.2638,
+        0.338,
+        0.4096,
+        0.477,
+        0.5353,
+        0.589,
+        0.6385,
+        0.6817,
+        0.7189,
+        0.7514,
+        0.7783,
+        0.803,
+        0.8246,
+        0.8463,
+        0.8655,
+        0.8818,
+        0.8955,
+        0.9083,
+        0.9194,
+        0.9286,
+        0.9364,
+        0.9439,
+        0.9508,
+        0.9563,
+        0.9611,
+        0.9659,
+        0.9694,
+        0.9725,
+        0.9755,
+        0.9781
+      ],
+      "frequent attender": [
+        0.0,
+        0.0001,
+        0.0031,
+        0.0184,
+        0.0522,
+        0.1031,
+        0.1644,
+        0.2338,
+        0.3034,
+        0.3706,
+        0.4329,
+        0.4934,
+        0.546,
+        0.5953,
+        0.6377,
+        0.676,
+        0.7096,
+        0.739,
+        0.7672,
+        0.7906,
+        0.8152,
+        0.8367,
+        0.8548,
+        0.8709,
+        0.8851,
+        0.898,
+        0.9089,
+        0.9191,
+        0.9285,
+        0.9365,
+        0.9429,
+        0.9489,
+        0.9552,
+        0.9595,
+        0.964,
+        0.9677,
+        0.9709
+      ],
+      "not frequent": [
+        0.0,
+        0.0004,
+        0.0128,
+        0.0539,
+        0.1238,
+        0.2086,
+        0.3008,
+        0.3902,
+        0.4721,
+        0.5463,
+        0.6112,
+        0.6652,
+        0.7119,
+        0.7532,
+        0.788,
+        0.8166,
+        0.841,
+        0.8603,
+        0.8768,
+        0.8912,
+        0.9073,
+        0.9212,
+        0.9326,
+        0.9416,
+        0.9503,
+        0.9571,
+        0.9628,
+        0.9674,
+        0.9717,
+        0.9759,
+        0.9792,
+        0.9819,
+        0.9842,
+        0.9862,
+        0.9877,
+        0.9893,
+        0.9906
+      ]
+    }
+  },
+  "blind_site": {
+    "label": "held out sites G and H",
+    "attendances": 28951,
+    "given": 28196,
+    "overall": {
+      "median_min": 44.0,
+      "within_30": 0.2692,
+      "within_60": 0.6757,
+      "reassessed_within_30": 0.5791,
+      "plan_followed_when_visible": 0.9111,
+      "pethidine_given": 250,
+      "pethidine_sites": {
+        "H": 250
+      }
+    },
+    "groups": {
+      "plan": [
+        {
+          "group": "no plan visible",
+          "attendances": 19169,
+          "median_min": 49.0,
+          "within_30": 0.2073,
+          "within_60": 0.6161,
+          "left_before_analgesia": 0.026,
+          "reassessed_within_30": 0.5186
+        },
+        {
+          "group": "plan visible",
+          "attendances": 9782,
+          "median_min": 35.0,
+          "within_30": 0.3905,
+          "within_60": 0.7924,
+          "left_before_analgesia": 0.0262,
+          "reassessed_within_30": 0.6977
+        }
+      ],
+      "frequent_attender": [
+        {
+          "group": "fewer than five",
+          "attendances": 19817,
+          "median_min": 40.0,
+          "within_30": 0.3155,
+          "within_60": 0.7323,
+          "left_before_analgesia": 0.0251,
+          "reassessed_within_30": 0.5796
+        },
+        {
+          "group": "five or more in past year",
+          "attendances": 9134,
+          "median_min": 54.0,
+          "within_30": 0.1687,
+          "within_60": 0.5529,
+          "left_before_analgesia": 0.0281,
+          "reassessed_within_30": 0.5779
+        }
+      ],
+      "night": [
+        {
+          "group": "daytime",
+          "attendances": 22020,
+          "median_min": 43.0,
+          "within_30": 0.2866,
+          "within_60": 0.6918,
+          "left_before_analgesia": 0.0255,
+          "reassessed_within_30": 0.5786
+        },
+        {
+          "group": "22:00 to 07:00",
+          "attendances": 6931,
+          "median_min": 48.0,
+          "within_30": 0.2138,
+          "within_60": 0.6244,
+          "left_before_analgesia": 0.0278,
+          "reassessed_within_30": 0.5807
+        }
+      ],
+      "sex": [
+        {
+          "group": "female",
+          "attendances": 15028,
+          "median_min": 46.0,
+          "within_30": 0.2439,
+          "within_60": 0.6536,
+          "left_before_analgesia": 0.0265,
+          "reassessed_within_30": 0.5783
+        },
+        {
+          "group": "male",
+          "attendances": 13923,
+          "median_min": 42.0,
+          "within_30": 0.2965,
+          "within_60": 0.6995,
+          "left_before_analgesia": 0.0256,
+          "reassessed_within_30": 0.5799
+        }
+      ],
+      "age": [
+        {
+          "group": "50 and over",
+          "attendances": 5998,
+          "median_min": 43.0,
+          "within_30": 0.2829,
+          "within_60": 0.6869,
+          "left_before_analgesia": 0.0275,
+          "reassessed_within_30": 0.5791
+        },
+        {
+          "group": "under 50",
+          "attendances": 22953,
+          "median_min": 44.0,
+          "within_30": 0.2656,
+          "within_60": 0.6727,
+          "left_before_analgesia": 0.0257,
+          "reassessed_within_30": 0.5791
+        }
+      ],
+      "site": [
+        {
+          "group": "G",
+          "attendances": 17516,
+          "median_min": 42.0,
+          "within_30": 0.2944,
+          "within_60": 0.7008,
+          "left_before_analgesia": 0.0263,
+          "reassessed_within_30": 0.6308
+        },
+        {
+          "group": "H",
+          "attendances": 11435,
+          "median_min": 48.0,
+          "within_30": 0.2307,
+          "within_60": 0.6372,
+          "left_before_analgesia": 0.0257,
+          "reassessed_within_30": 0.4999
+        }
+      ]
+    },
+    "adjusted_log_minutes": {
+      "intercept": {
+        "estimate": 3.7207,
+        "se": 0.009,
+        "ci95": [
+          3.7031,
+          3.7383
+        ],
+        "ratio": 41.292
+      },
+      "crowding": {
+        "estimate": 0.4758,
+        "se": 0.016,
+        "ci95": [
+          0.4444,
+          0.5071
+        ],
+        "ratio": 1.609
+      },
+      "triage_cat2": {
+        "estimate": -0.2476,
+        "se": 0.0067,
+        "ci95": [
+          -0.2608,
+          -0.2345
+        ],
+        "ratio": 0.781
+      },
+      "triage_cat1": {
+        "estimate": -0.4444,
+        "se": 0.0181,
+        "ci95": [
+          -0.4799,
+          -0.4088
+        ],
+        "ratio": 0.641
+      },
+      "plan_visible": {
+        "estimate": -0.3385,
+        "se": 0.0074,
+        "ci95": [
+          -0.353,
+          -0.3239
+        ],
+        "ratio": 0.713
+      },
+      "high_frequency_attender": {
+        "estimate": 0.3007,
+        "se": 0.007,
+        "ci95": [
+          0.2869,
+          0.3145
+        ],
+        "ratio": 1.351
+      },
+      "night": {
+        "estimate": 0.1358,
+        "se": 0.0077,
+        "ci95": [
+          0.1207,
+          0.1508
+        ],
+        "ratio": 1.145
+      },
+      "female": {
+        "estimate": 0.0842,
+        "se": 0.0065,
+        "ci95": [
+          0.0713,
+          0.097
+        ],
+        "ratio": 1.088
+      },
+      "age_50_plus": {
+        "estimate": -0.0313,
+        "se": 0.0081,
+        "ci95": [
+          -0.0471,
+          -0.0155
+        ],
+        "ratio": 0.969
+      },
+      "site_H": {
+        "estimate": 0.0832,
+        "se": 0.0076,
+        "ci95": [
+          0.0683,
+          0.0982
+        ],
+        "ratio": 1.087
+      }
+    },
+    "recovery": [
+      {
+        "effect": "crowding",
+        "true": 0.48,
+        "estimate": 0.4758,
+        "ci95": [
+          0.4444,
+          0.5071
+        ],
+        "covered": true
+      },
+      {
+        "effect": "triage_cat2",
+        "true": -0.26,
+        "estimate": -0.2476,
+        "ci95": [
+          -0.2608,
+          -0.2345
+        ],
+        "covered": true
+      },
+      {
+        "effect": "triage_cat1",
+        "true": -0.45,
+        "estimate": -0.4444,
+        "ci95": [
+          -0.4799,
+          -0.4088
+        ],
+        "covered": true
+      },
+      {
+        "effect": "plan_visible",
+        "true": -0.34,
+        "estimate": -0.3385,
+        "ci95": [
+          -0.353,
+          -0.3239
+        ],
+        "covered": true
+      },
+      {
+        "effect": "high_frequency_attender",
+        "true": 0.3,
+        "estimate": 0.3007,
+        "ci95": [
+          0.2869,
+          0.3145
+        ],
+        "covered": true
+      },
+      {
+        "effect": "night",
+        "true": 0.13,
+        "estimate": 0.1358,
+        "ci95": [
+          0.1207,
+          0.1508
+        ],
+        "covered": true
+      },
+      {
+        "effect": "female",
+        "true": 0.08,
+        "estimate": 0.0842,
+        "ci95": [
+          0.0713,
+          0.097
+        ],
+        "covered": true
+      },
+      {
+        "effect": "age_50_plus",
+        "true": -0.04,
+        "estimate": -0.0313,
+        "ci95": [
+          -0.0471,
+          -0.0155
+        ],
+        "covered": true
+      }
+    ],
+    "counterfactual_all_plans_visible": {
+      "attendances_with_hidden_plan": 6479,
+      "within_30_now": 0.2692,
+      "within_30_if_visible": 0.3122
+    },
+    "km_grid": [
+      0,
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50,
+      55,
+      60,
+      65,
+      70,
+      75,
+      80,
+      85,
+      90,
+      95,
+      100,
+      105,
+      110,
+      115,
+      120,
+      125,
+      130,
+      135,
+      140,
+      145,
+      150,
+      155,
+      160,
+      165,
+      170,
+      175,
+      180
+    ],
+    "km": {
+      "plan visible": [
+        0.0,
+        0.0007,
+        0.0216,
+        0.0791,
+        0.1761,
+        0.2843,
+        0.3905,
+        0.4903,
+        0.5769,
+        0.6466,
+        0.7083,
+        0.7532,
+        0.7924,
+        0.8249,
+        0.8524,
+        0.8766,
+        0.8939,
+        0.9083,
+        0.9198,
+        0.9279,
+        0.9388,
+        0.9488,
+        0.957,
+        0.9652,
+        0.9709,
+        0.974,
+        0.9785,
+        0.9822,
+        0.9851,
+        0.9872,
+        0.9896,
+        0.9915,
+        0.9934,
+        0.9944,
+        0.9953,
+        0.996,
+        0.9965
+      ],
+      "no plan visible": [
+        0.0,
+        0.0001,
+        0.0045,
+        0.024,
+        0.0669,
+        0.1329,
+        0.2073,
+        0.2848,
+        0.3635,
+        0.4343,
+        0.5019,
+        0.5619,
+        0.6161,
+        0.6626,
+        0.7054,
+        0.7416,
+        0.7731,
+        0.7986,
+        0.8211,
+        0.8416,
+        0.8618,
+        0.881,
+        0.8973,
+        0.9112,
+        0.9229,
+        0.9328,
+        0.9423,
+        0.9493,
+        0.9558,
+        0.9611,
+        0.9659,
+        0.9701,
+        0.9734,
+        0.9762,
+        0.9792,
+        0.9812,
+        0.9837
+      ],
+      "frequent attender": [
+        0.0,
+        0.0001,
+        0.0035,
+        0.0182,
+        0.053,
+        0.1056,
+        0.1687,
+        0.2364,
+        0.3075,
+        0.3769,
+        0.442,
+        0.4998,
+        0.5529,
+        0.6049,
+        0.6492,
+        0.689,
+        0.7272,
+        0.7573,
+        0.7819,
+        0.8053,
+        0.8279,
+        0.8509,
+        0.8697,
+        0.8862,
+        0.9009,
+        0.915,
+        0.9247,
+        0.9341,
+        0.9422,
+        0.9483,
+        0.9546,
+        0.959,
+        0.964,
+        0.9675,
+        0.9715,
+        0.9734,
+        0.9763
+      ],
+      "not frequent": [
+        0.0,
+        0.0004,
+        0.0134,
+        0.0539,
+        0.1273,
+        0.2202,
+        0.3155,
+        0.4086,
+        0.4946,
+        0.5656,
+        0.6314,
+        0.685,
+        0.7323,
+        0.7693,
+        0.8039,
+        0.8325,
+        0.8539,
+        0.8718,
+        0.8878,
+        0.9009,
+        0.9155,
+        0.9283,
+        0.9395,
+        0.9493,
+        0.9566,
+        0.9611,
+        0.9682,
+        0.9724,
+        0.9764,
+        0.9798,
+        0.9827,
+        0.9857,
+        0.9874,
+        0.989,
+        0.9906,
+        0.992,
+        0.9934
+      ]
+    }
+  },
+  "blind_temporal": {
+    "label": "sites A to F in 2025",
+    "attendances": 27056,
+    "given": 26298,
+    "overall": {
+      "median_min": 46.0,
+      "within_30": 0.2476,
+      "within_60": 0.6517,
+      "reassessed_within_30": 0.6177,
+      "plan_followed_when_visible": 0.9096,
+      "pethidine_given": 196,
+      "pethidine_sites": {
+        "D": 79,
+        "C": 67,
+        "F": 50
+      }
+    },
+    "groups": {
+      "plan": [
+        {
+          "group": "no plan visible",
+          "attendances": 15952,
+          "median_min": 52.0,
+          "within_30": 0.1782,
+          "within_60": 0.5809,
+          "left_before_analgesia": 0.0269,
+          "reassessed_within_30": 0.5326
+        },
+        {
+          "group": "plan visible",
+          "attendances": 11104,
+          "median_min": 38.0,
+          "within_30": 0.3473,
+          "within_60": 0.7533,
+          "left_before_analgesia": 0.0296,
+          "reassessed_within_30": 0.7403
+        }
+      ],
+      "frequent_attender": [
+        {
+          "group": "fewer than five",
+          "attendances": 17324,
+          "median_min": 42.0,
+          "within_30": 0.2924,
+          "within_60": 0.7079,
+          "left_before_analgesia": 0.0282,
+          "reassessed_within_30": 0.6117
+        },
+        {
+          "group": "five or more in past year",
+          "attendances": 9732,
+          "median_min": 55.0,
+          "within_30": 0.1679,
+          "within_60": 0.5516,
+          "left_before_analgesia": 0.0277,
+          "reassessed_within_30": 0.6283
+        }
+      ],
+      "night": [
+        {
+          "group": "daytime",
+          "attendances": 20632,
+          "median_min": 45.0,
+          "within_30": 0.2611,
+          "within_60": 0.6657,
+          "left_before_analgesia": 0.0273,
+          "reassessed_within_30": 0.6157
+        },
+        {
+          "group": "22:00 to 07:00",
+          "attendances": 6424,
+          "median_min": 50.0,
+          "within_30": 0.2042,
+          "within_60": 0.6068,
+          "left_before_analgesia": 0.0302,
+          "reassessed_within_30": 0.6242
+        }
+      ],
+      "sex": [
+        {
+          "group": "female",
+          "attendances": 13502,
+          "median_min": 48.0,
+          "within_30": 0.2257,
+          "within_60": 0.6275,
+          "left_before_analgesia": 0.0287,
+          "reassessed_within_30": 0.6189
+        },
+        {
+          "group": "male",
+          "attendances": 13554,
+          "median_min": 44.0,
+          "within_30": 0.2694,
+          "within_60": 0.6757,
+          "left_before_analgesia": 0.0274,
+          "reassessed_within_30": 0.6165
+        }
+      ],
+      "age": [
+        {
+          "group": "50 and over",
+          "attendances": 6186,
+          "median_min": 44.0,
+          "within_30": 0.2711,
+          "within_60": 0.6773,
+          "left_before_analgesia": 0.0254,
+          "reassessed_within_30": 0.6258
+        },
+        {
+          "group": "under 50",
+          "attendances": 20870,
+          "median_min": 46.0,
+          "within_30": 0.2406,
+          "within_60": 0.6441,
+          "left_before_analgesia": 0.0288,
+          "reassessed_within_30": 0.6153
+        }
+      ],
+      "site": [
+        {
+          "group": "A",
+          "attendances": 6229,
+          "median_min": 42.0,
+          "within_30": 0.2967,
+          "within_60": 0.707,
+          "left_before_analgesia": 0.0286,
+          "reassessed_within_30": 0.6981
+        },
+        {
+          "group": "B",
+          "attendances": 6418,
+          "median_min": 52.0,
+          "within_30": 0.1865,
+          "within_60": 0.5739,
+          "left_before_analgesia": 0.0301,
+          "reassessed_within_30": 0.6532
+        },
+        {
+          "group": "C",
+          "attendances": 3070,
+          "median_min": 48.0,
+          "within_30": 0.2296,
+          "within_60": 0.6362,
+          "left_before_analgesia": 0.028,
+          "reassessed_within_30": 0.5365
+        },
+        {
+          "group": "D",
+          "attendances": 3365,
+          "median_min": 54.0,
+          "within_30": 0.173,
+          "within_60": 0.567,
+          "left_before_analgesia": 0.0279,
+          "reassessed_within_30": 0.4653
+        },
+        {
+          "group": "E",
+          "attendances": 5167,
+          "median_min": 40.0,
+          "within_30": 0.3269,
+          "within_60": 0.736,
+          "left_before_analgesia": 0.0263,
+          "reassessed_within_30": 0.6861
+        },
+        {
+          "group": "F",
+          "attendances": 2807,
+          "median_min": 45.0,
+          "within_30": 0.2415,
+          "within_60": 0.6701,
+          "left_before_analgesia": 0.0253,
+          "reassessed_within_30": 0.504
+        }
+      ]
+    },
+    "adjusted_log_minutes": {
+      "intercept": {
+        "estimate": 3.8453,
+        "se": 0.0104,
+        "ci95": [
+          3.8249,
+          3.8657
+        ],
+        "ratio": 46.773
+      },
+      "crowding": {
+        "estimate": 0.4463,
+        "se": 0.017,
+        "ci95": [
+          0.413,
+          0.4796
+        ],
+        "ratio": 1.563
+      },
+      "triage_cat2": {
+        "estimate": -0.2632,
+        "se": 0.0069,
+        "ci95": [
+          -0.2768,
+          -0.2496
+        ],
+        "ratio": 0.769
+      },
+      "triage_cat1": {
+        "estimate": -0.4536,
+        "se": 0.0182,
+        "ci95": [
+          -0.4892,
+          -0.418
+        ],
+        "ratio": 0.635
+      },
+      "plan_visible": {
+        "estimate": -0.3308,
+        "se": 0.0075,
+        "ci95": [
+          -0.3454,
+          -0.3161
+        ],
+        "ratio": 0.718
+      },
+      "high_frequency_attender": {
+        "estimate": 0.2866,
+        "se": 0.0071,
+        "ci95": [
+          0.2728,
+          0.3004
+        ],
+        "ratio": 1.332
+      },
+      "night": {
+        "estimate": 0.1152,
+        "se": 0.0079,
+        "ci95": [
+          0.0997,
+          0.1306
+        ],
+        "ratio": 1.122
+      },
+      "female": {
+        "estimate": 0.0794,
+        "se": 0.0068,
+        "ci95": [
+          0.0661,
+          0.0926
+        ],
+        "ratio": 1.083
+      },
+      "age_50_plus": {
+        "estimate": -0.0433,
+        "se": 0.0081,
+        "ci95": [
+          -0.0591,
+          -0.0275
+        ],
+        "ratio": 0.958
+      },
+      "site_B": {
+        "estimate": 0.1405,
+        "se": 0.0101,
+        "ci95": [
+          0.1207,
+          0.1604
+        ],
+        "ratio": 1.151
+      },
+      "site_C": {
+        "estimate": 0.0075,
+        "se": 0.0126,
+        "ci95": [
+          -0.0173,
+          0.0322
+        ],
+        "ratio": 1.007
+      },
+      "site_D": {
+        "estimate": -0.009,
+        "se": 0.013,
+        "ci95": [
+          -0.0344,
+          0.0163
+        ],
+        "ratio": 0.991
+      },
+      "site_E": {
+        "estimate": -0.0602,
+        "se": 0.0105,
+        "ci95": [
+          -0.0807,
+          -0.0397
+        ],
+        "ratio": 0.942
+      },
+      "site_F": {
+        "estimate": -0.0782,
+        "se": 0.013,
+        "ci95": [
+          -0.1037,
+          -0.0528
+        ],
+        "ratio": 0.925
+      }
+    },
+    "recovery": [
+      {
+        "effect": "crowding",
+        "true": 0.48,
+        "estimate": 0.4463,
+        "ci95": [
+          0.413,
+          0.4796
+        ],
+        "covered": false
+      },
+      {
+        "effect": "triage_cat2",
+        "true": -0.26,
+        "estimate": -0.2632,
+        "ci95": [
+          -0.2768,
+          -0.2496
+        ],
+        "covered": true
+      },
+      {
+        "effect": "triage_cat1",
+        "true": -0.45,
+        "estimate": -0.4536,
+        "ci95": [
+          -0.4892,
+          -0.418
+        ],
+        "covered": true
+      },
+      {
+        "effect": "plan_visible",
+        "true": -0.34,
+        "estimate": -0.3308,
+        "ci95": [
+          -0.3454,
+          -0.3161
+        ],
+        "covered": true
+      },
+      {
+        "effect": "high_frequency_attender",
+        "true": 0.3,
+        "estimate": 0.2866,
+        "ci95": [
+          0.2728,
+          0.3004
+        ],
+        "covered": true
+      },
+      {
+        "effect": "night",
+        "true": 0.13,
+        "estimate": 0.1152,
+        "ci95": [
+          0.0997,
+          0.1306
+        ],
+        "covered": true
+      },
+      {
+        "effect": "female",
+        "true": 0.08,
+        "estimate": 0.0794,
+        "ci95": [
+          0.0661,
+          0.0926
+        ],
+        "covered": true
+      },
+      {
+        "effect": "age_50_plus",
+        "true": -0.04,
+        "estimate": -0.0433,
+        "ci95": [
+          -0.0591,
+          -0.0275
+        ],
+        "covered": true
+      }
+    ],
+    "counterfactual_all_plans_visible": {
+      "attendances_with_hidden_plan": 4157,
+      "within_30_now": 0.2476,
+      "within_30_if_visible": 0.2731
+    },
+    "km_grid": [
+      0,
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50,
+      55,
+      60,
+      65,
+      70,
+      75,
+      80,
+      85,
+      90,
+      95,
+      100,
+      105,
+      110,
+      115,
+      120,
+      125,
+      130,
+      135,
+      140,
+      145,
+      150,
+      155,
+      160,
+      165,
+      170,
+      175,
+      180
+    ],
+    "km": {
+      "plan visible": [
+        0.0,
+        0.0008,
+        0.0161,
+        0.0665,
+        0.1492,
+        0.2494,
+        0.3473,
+        0.4375,
+        0.5229,
+        0.5901,
+        0.6549,
+        0.7067,
+        0.7533,
+        0.791,
+        0.8193,
+        0.8439,
+        0.8639,
+        0.8814,
+        0.8939,
+        0.9053,
+        0.9228,
+        0.9358,
+        0.9455,
+        0.9532,
+        0.9608,
+        0.9658,
+        0.9716,
+        0.9754,
+        0.9788,
+        0.9815,
+        0.9834,
+        0.9853,
+        0.9872,
+        0.9883,
+        0.9893,
+        0.9912,
+        0.9924
+      ],
+      "no plan visible": [
+        0.0,
+        0.0002,
+        0.0039,
+        0.0202,
+        0.0572,
+        0.1096,
+        0.1782,
+        0.2539,
+        0.328,
+        0.4011,
+        0.4691,
+        0.5253,
+        0.5809,
+        0.6322,
+        0.6726,
+        0.712,
+        0.745,
+        0.7734,
+        0.7998,
+        0.8217,
+        0.8455,
+        0.8646,
+        0.8826,
+        0.8962,
+        0.9079,
+        0.919,
+        0.9287,
+        0.9372,
+        0.9435,
+        0.9491,
+        0.9547,
+        0.9597,
+        0.9645,
+        0.9679,
+        0.971,
+        0.9744,
+        0.9771
+      ],
+      "frequent attender": [
+        0.0,
+        0.0,
+        0.0039,
+        0.0182,
+        0.0535,
+        0.1048,
+        0.1679,
+        0.2352,
+        0.3062,
+        0.3702,
+        0.4392,
+        0.4949,
+        0.5516,
+        0.6027,
+        0.6429,
+        0.6839,
+        0.7181,
+        0.7475,
+        0.775,
+        0.7976,
+        0.8229,
+        0.8459,
+        0.8653,
+        0.8819,
+        0.8932,
+        0.9043,
+        0.9151,
+        0.9233,
+        0.9311,
+        0.9384,
+        0.9432,
+        0.949,
+        0.9548,
+        0.9582,
+        0.9623,
+        0.9667,
+        0.9706
+      ],
+      "not frequent": [
+        0.0,
+        0.0007,
+        0.0118,
+        0.051,
+        0.1183,
+        0.2019,
+        0.2924,
+        0.3821,
+        0.4652,
+        0.5396,
+        0.605,
+        0.6587,
+        0.7079,
+        0.7506,
+        0.7832,
+        0.8123,
+        0.8363,
+        0.8571,
+        0.8741,
+        0.8888,
+        0.9076,
+        0.9204,
+        0.9324,
+        0.9404,
+        0.9497,
+        0.9572,
+        0.9637,
+        0.9695,
+        0.973,
+        0.9758,
+        0.9796,
+        0.9822,
+        0.9846,
+        0.9866,
+        0.9878,
+        0.9896,
+        0.9906
+      ]
+    }
+  }
+}

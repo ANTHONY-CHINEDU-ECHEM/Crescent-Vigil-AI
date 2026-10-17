@@ -1,0 +1,176 @@
+# Held out clinician questions. Format: gold card ids | minute since arrival or blank | question
+# These questions are never indexed. For each card the first two questions are development questions and the third is blind.
+G001,G049 | 20 | how quickly should the first painkiller be given after someone with sickle cell arrives
+G001,G049 | 25 | what is the target time from arrival to first pain relief in a crisis
+G001,G049 | 35 | patient came in 35 min ago with a sickle crisis and nothing given yet, are we late
+G002 |  | does the American haematology guideline use the same timing target for pain relief as NICE
+G002 |  | what does ASH recommend about how soon analgesia should be given in the ED
+G002 |  | is it one hour or half an hour for the first dose of pain relief
+G003 | 10 | she has a personalised pain plan from haematology, do we follow that or the ED protocol
+G003 | 10 | which painkiller and route should we use when there is a specialist plan on the record
+G003 | 15 | patient has an individual analgesia plan, should the generic pathway override it
+G004 | 5 | what should we ask about medicines taken before coming in
+G004 | 5 | do we need to know what analgesia was used at home for this episode
+G004 | 5 | patient already took codeine at home, does that matter before the first dose
+G005,G041 |  | how should we judge how bad the pain is
+G005,G041 |  | should we trust the patient's own pain score
+G005,G041 |  | colleague thinks the patient is exaggerating pain, what does guidance say
+G006 | 10 | severe pain score 9, what class of analgesic is recommended first
+G006 | 10 | moderate pain not settling after weak painkillers, what next
+G006 | 10 | is a strong opioid bolus appropriate for a severe crisis
+G007 |  | can pethidine be used for a sickle cell crisis
+G007 |  | why is pethidine avoided
+G007 |  | doctor wants to prescribe pethidine, is that ok
+G008,G009 | 15 | what adjuncts should go alongside opioids
+G008,G009 | 15 | should paracetamol be given regularly as well
+G008,G009 | 15 | which non opioid painkillers can be added
+G009 |  | can we give ibuprofen if kidney function is poor
+G009 |  | patient has renal impairment, are anti inflammatories ok
+G009 |  | NSAID contraindications in sickle cell crisis
+G010,G011 | 45 | how often should pain be rechecked after the first dose
+G010,G011 | 50 | after giving morphine when do we reassess
+G010,G011 | 40 | reassessment interval before the pain is controlled
+G011,G044 | 120 | what observations are needed after opioids
+G011,G044 | 90 | monitoring requirements after strong analgesia
+G011,G044 | 100 | which vital signs must be tracked after the opioid was given
+G012 | 180 | respiratory rate has dropped to 9 and patient is drowsy after morphine
+G012 | 200 | patient very sleepy with slow breathing after opioid doses
+G012 | 240 | possible opioid toxicity, what should we do
+G013 | 70 | pain still 9 out of 10 an hour after the first dose
+G013 | 60 | first dose not working, what is the next step
+G013 | 75 | inadequate relief after initial opioid, who should be involved
+G014 | 600 | pain refractory to opioids on the ward, any other options
+G014 | 700 | is ketamine used in sickle cell pain
+G014 | 800 | opioids not controlling pain after a day, adjuvant options
+G015,G037 | 150 | patient being admitted, who needs to be told
+G015,G037 | 160 | do we need to inform the haematologists on admission
+G015,G037 | 170 | when should specialist haematology see an admitted patient
+G016 | 200 | should we give intravenous fluids to everyone in crisis
+G016 | 220 | fluid management in a painful episode
+G016 | 240 | risk of giving too much IV fluid
+G017 |  | should we transfuse for an uncomplicated pain crisis
+G017 |  | is blood transfusion indicated for a simple vaso occlusive episode
+G017 |  | when is transfusion appropriate in a pain crisis
+G018 | 600 | how can we prevent chest syndrome in admitted pain patients
+G018 | 800 | should admitted patients use an incentive spirometer
+G018 | 900 | back pain admission, any breathing exercise recommendation
+G019 |  | how is acute chest syndrome defined
+G019 |  | diagnostic criteria for acute chest syndrome
+G019 |  | what makes it acute chest syndrome rather than just chest pain
+G020 | 2000 | when does acute chest syndrome usually develop during an admission
+G020 | 2400 | day two of admission, what complication should we watch for
+G020 | 2200 | is chest syndrome more likely in the first few days after admission
+G021,G046 | 1500 | sats have dropped from 97 to 93 on the ward
+G021,G046 | 1600 | oxygen saturation falling below the patient's usual level
+G021,G046 | 1700 | what does a falling saturation mean in an inpatient with sickle cell
+G022 | 10 | patient arrives with chest pain and cough
+G022 | 15 | breathless on arrival, what investigations first
+G022 | 10 | presenting with chest symptoms, does acute chest syndrome need excluding
+G023 |  | antibiotic choice for acute chest syndrome
+G023 |  | how is acute chest syndrome treated
+G023 |  | first line management once acute chest syndrome is diagnosed
+G024 |  | role of transfusion in acute chest syndrome
+G024 |  | exchange versus simple transfusion for chest syndrome
+G024 |  | when is exchange transfusion needed for chest syndrome
+G025 | 2500 | oxygen requirement rising with chest syndrome, should ICU be involved
+G025 | 2600 | when to escalate acute chest syndrome to critical care
+G025 | 2800 | patient tiring with worsening chest syndrome
+G026 | 1800 | can too much opioid make chest problems worse
+G026 | 1900 | balancing analgesia and breathing in acute chest syndrome
+G026 | 2000 | sedation from opioids and risk of hypoventilation
+G027,G028 | 30 | temperature is 38.6 in a sickle cell patient
+G027,G028 | 30 | febrile patient with sickle cell disease, what tests and treatment
+G027,G028 | 40 | fever in sickle cell, why is it urgent
+G028 |  | what temperature triggers the sepsis screen in this system
+G028 |  | is the fever threshold 38 or 38.5
+G028 |  | local fever cut off versus the NHLBI threshold
+G029 | 60 | suspected infection, how do we assess for sepsis
+G029 | 60 | sepsis risk in sickle cell patients
+G029 | 70 | timing of antibiotics in suspected sepsis
+G030,G031 | 10 | new arm weakness and slurred speech
+G030,G031 | 15 | patient with sickle cell has a seizure and headache
+G030,G031 | 20 | possible stroke in an adult with sickle cell disease
+G031 |  | treatment for acute stroke in sickle cell
+G031 |  | is exchange transfusion used for stroke
+G031 |  | stroke management specific to sickle cell
+G032 | 5 | man with sickle cell and a prolonged erection
+G032 | 5 | priapism for five hours, what now
+G032 | 10 | when does priapism need urology
+G033,G034 | 60 | haemoglobin much lower than usual
+G033,G034 | 60 | Hb has dropped by 2.5 from steady state
+G033,G034 | 70 | acute anaemia with low reticulocytes
+G034 |  | what haemoglobin drop does this system flag
+G034 |  | threshold for haemoglobin fall alert
+G034 |  | how far below steady state Hb counts as significant here
+G035 | 30 | left sided abdominal pain with a large spleen and falling Hb
+G035 | 30 | enlarging spleen in HbSC patient
+G035 | 40 | signs of splenic sequestration
+G036 | 20 | abdominal pain in sickle cell, could it be something else
+G036 | 25 | right upper quadrant pain, is it just a crisis
+G036 | 30 | when should surgeons see abdominal pain in sickle cell
+G038 | 5 | the care plan exists but we can't find it in the ED record
+G038 | 5 | why does plan accessibility matter in the emergency department
+G038 | 5 | plan not visible on our system at triage
+G039,G040 |  | plan was last reviewed two years ago, can we still use it
+G039,G040 |  | how often should care plans be updated
+G039,G040 |  | out of date pain plan, what to do
+G041 |  | patient attends very often, should we be cautious with opioids
+G041 |  | frequent attender label and pain relief delays
+G041 |  | does attending frequently mean drug seeking
+G042 |  | what did the NCEPOD sickle crisis report find
+G042 |  | national enquiry lessons on deaths in sickle cell
+G042 |  | findings of the confidential enquiry about monitoring
+G043 |  | should we involve the patient in analgesia choices
+G043 |  | patient says morphine never works for them
+G043 |  | listening to the patient's experience of previous crises
+G045 | 1000 | early warning score in sickle cell patients
+G045 | 1100 | NEWS score seems falsely reassuring
+G045 | 1200 | how to use the early warning score for this patient
+G047 | 2000 | new crackles on the ward, what imaging
+G047 | 2100 | chest X ray timing during admission
+G047 | 2200 | reduced air entry developed overnight
+G048 | 15 | which bloods at presentation
+G048 | 15 | blood tests for a sickle crisis on arrival
+G048 | 20 | should we compare the blood count to the usual values
+G050,G051 | 10 | can nurses give the first dose of pain relief
+G050,G051 | 10 | ED is crowded and no doctor available to prescribe analgesia
+G050,G051 | 15 | ways to speed up the first analgesic dose
+G052 | 3000 | patient ready to go home, what is needed
+G052 | 3000 | discharge checklist after a crisis
+G052 | 3000 | before sending home what advice and supply
+G053 |  | patient has had many crises this year, any long term treatment to consider
+G053 |  | who should be referred for hydroxyurea
+G053 |  | disease modifying treatment after repeated chest syndrome
+G054 |  | should the plan be updated after admission
+G054 |  | learning from this admission for the next one
+G054 |  | updating the care plan at discharge
+G055 | 300 | pain is different from her usual crises
+G055 | 300 | atypical pain not responding as expected
+G055 | 400 | what else could cause pain that doesn't fit a crisis
+G056 | 1500 | persistent hip pain not settling
+G056 | 1500 | could shoulder pain be avascular necrosis
+G056 | 1600 | ongoing joint pain in an admitted patient
+G057 | 900 | chest wall pain and shallow breathing
+G057 | 900 | why does analgesia help breathing
+G057 | 1000 | splinting from rib pain
+G058 | 1500 | when should oxygen be given
+G058 | 1500 | hypoxia in sickle cell inpatient
+G058 | 1600 | is it ok to just increase the oxygen
+G059 |  | can this be used for children
+G059 |  | paediatric sickle cell patient in ED
+G059 |  | does this pathway apply to a 12 year old
+G060 |  | pregnant woman in sickle crisis
+G060 |  | sickle cell pain in pregnancy
+G060 |  | who should manage pregnant patients with sickle cell pain
+G061 | 1500 | what does the deterioration alert mean
+G061 | 1600 | model says high risk of chest syndrome, what should I do
+G061 | 1700 | how should we respond to a Crescent Vigil alert
+G062 |  | what dose of morphine should I give
+G062 |  | can the system calculate an opioid dose
+G062 |  | how many milligrams of oxycodone
+G063 |  | patient says they want to end it all
+G063 |  | patient in crisis expresses self harm thoughts
+G063 |  | mental health concern during a sickle admission
+G064 | 10 | patient prefers subcutaneous rather than IV
+G064 | 10 | difficult venous access, which route
+G064 | 15 | needle phobic patient route preference

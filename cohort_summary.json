@@ -1,0 +1,25 @@
+{
+  "patients": 15587,
+  "attendances": 178235,
+  "admissions": 116692,
+  "obs_rows": 1755128,
+  "events": 881152,
+  "sites": 8,
+  "acs_after_admission": 10341,
+  "acs_at_arrival": 4136,
+  "plans": 8473,
+  "by_split": {
+    "dev": 117254,
+    "blind_site": 31590,
+    "blind_temporal": 29391
+  },
+  "complaints": {
+    "pain": 146372,
+    "chest": 11633,
+    "fever": 8819,
+    "abdominal": 4609,
+    "other": 3679,
+    "neuro": 2072,
+    "priapism": 1051
+  }
+}
