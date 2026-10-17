@@ -1,8 +1,16 @@
 # Crescent Vigil AI
 
+<p align="center">
+<img width="783" height="820" alt="image" src="https://github.com/user-attachments/assets/680e9b6a-c160-47e3-a1c3-0601ea45ff2b" />
+</p>
+
+SOURCE: https://pmc.ncbi.nlm.nih.gov/articles/PMC8454100/
+
 **Time critical decision support for sickle cell vaso occlusive crises: a care plan first retrieval copilot whose every sentence is cited and verified, an acute chest syndrome deterioration model, and an analgesia equity audit, built on a calibrated synthetic emergency department cohort and scored once against a frozen blind set of two unseen hospitals and a later year.**
 
-![Crescent Vigil AI at the bedside](docs/screenshots/bedside.png)
+<p align="center">
+<img width="1440" height="1620" alt="bedside" src="https://github.com/user-attachments/assets/e12698cc-6c27-4cda-8ba0-555827882505" />
+</p>
 
 ## Project brief
 
@@ -33,37 +41,53 @@ To run the full service with all 178,235 attendances, see Running it below.
 
 ## Screenshots
 
-![deterioration](docs/screenshots/deterioration_case.png)
+<p align="center">
+<img width="1440" height="1889" alt="deterioration_case" src="https://github.com/user-attachments/assets/cc5e9093-344c-470f-9356-9f30ec5ba913" />
+</p>
 
 **Acute chest syndrome developing on day two.** A blind teaching case 26 hours into the admission. The model estimates a 12% chance of acute chest syndrome in the next 24 hours against a 6% threshold and explains which features drive it; a haemoglobin fall of 6 g/dL below steady state raises a red flag; the question about falling saturation is answered from two cited cards. The synthetic outcome is revealed under the timeline: diagnosis at 30.6 hours.
 
-![dose](docs/screenshots/dose_request.png)
+<p align="center">
+<img width="1440" height="1642" alt="dose_request" src="https://github.com/user-attachments/assets/76fa1ea3-33f5-4beb-a4be-77fc526f4669" />
+</p>
 
 **A dose question.** The plan names morphine by the intravenous route. Asked for a dose, the copilot cites card G062 and the plan, says the dose is as written in the signed plan and gives no number. First analgesia is flagged overdue at 40 minutes.
 
-![equity](docs/screenshots/equity.png)
+<p align="center">
+<img width="1440" height="1939" alt="equity" src="https://github.com/user-attachments/assets/5e02d631-07cc-445f-ab61-0161f53aece4" />
+</p>
 
 **Equity audit.** In development data, patients whose plan was visible waited a median of 37 minutes against 51; frequent attenders waited 55 against 41. The forest plot sets every adjusted estimate beside the value the generator injected.
 
-![model](docs/screenshots/model.png)
+<p align="center">
+<img width="1440" height="2572" alt="model" src="https://github.com/user-attachments/assets/1e0673ab-bccd-4969-b621-fd2b391ec08e" />
+</p>
 
 **Deterioration model.** Blind discrimination, calibration, the alert trade off, warning time, subgroups and a failure analysis.
 
-![evaluation](docs/screenshots/evaluation.png)
+<p align="center">
+<img width="1440" height="2802" alt="evaluation" src="https://github.com/user-attachments/assets/989d3a5d-544c-4e66-aa00-e38afd4f87d4" />
+</p>
 
 **Evaluation.** The single blind run with the frozen hash, copilot metrics, retrieval methods and ablations, verifier tests and all 25 safety probes.
 
-![guidance](docs/screenshots/library.png)
+<p align="center">
+<img width="1440" height="5673" alt="library" src="https://github.com/user-attachments/assets/d481e5c3-0698-4ab6-895c-db745c23f21b" />
+</p>
 
 **Guidance.** A search for falling saturation on the ward at minute 1,500 ranks the card on falling saturation first and shows its seven feature values.
 
 DARK THEME
 
-![dark](docs/screenshots/dark.png)
+<p align="center">
+<img width="1440" height="1000" alt="dark" src="https://github.com/user-attachments/assets/073996df-3fae-4bb0-a850-a2b5c92ea260" />
+</p>
 
 PHONE
 
-![mobile](docs/screenshots/mobile.png)
+<p align="center">
+<img width="390" height="844" alt="mobile" src="https://github.com/user-attachments/assets/61c8123a-c973-47c3-9be3-a7d94a22f8e5" />
+</p>
 
 ## Results
 
@@ -90,11 +114,15 @@ The gold actions come from a decision table written from the same guidance as th
 | Logistic regression, same features | 0.749 | 0.122 | 0.0336 |
 | Saturation rule (below 94% or 3 points under baseline) | 0.574 | 0.045 | |
 
-![model discrimination](reports/figures/model_discrimination.png)
+<p align="center">
+<img width="1402" height="498" alt="model_discrimination" src="https://github.com/user-attachments/assets/ce6bc9a5-c2a0-4d7f-90bb-1f54d31b9487" />
+</p>
 
 At the alert threshold fixed on development data, the model alerted 79.8% of 3,579 blind episodes a median of 24.2 hours before diagnosis. The saturation rule caught 58.3%. Calibration follows the diagonal across every decile.
 
-![alerts](reports/figures/alerts.png)
+<p align="center">
+<img width="1200" height="488" alt="alerts" src="https://github.com/user-attachments/assets/f816dd36-4bcf-4adc-953b-ea42ae0b9e09" />
+</p>
 
 | Retrieval, 58 blind questions | Hit@1 | Recall@3 | MRR | nDCG@10 |
 | --- | --- | --- | --- | --- |
@@ -103,7 +131,9 @@ At the alert threshold fixed on development data, the model alerted 79.8% of 3,5
 | **Learned ranker** | **0.759** | **0.819** | **0.823** | **0.838** |
 | Learned ranker without the situation feature | 0.724 | 0.784 | 0.804 | 0.814 |
 
-![copilot quality](reports/figures/copilot_quality.png)
+<p align="center">
+<img width="1391" height="556" alt="copilot_quality" src="https://github.com/user-attachments/assets/239cac62-7b9d-474f-8eb9-6055b2ac2857" />
+</p>
 
 ### Where it fails
 
@@ -118,7 +148,9 @@ At the alert threshold fixed on development data, the model alerted 79.8% of 3,5
 
 The model failure analysis reads the stored blind predictions and does not score the blind set again. The roadmap is in [docs/evaluation.md](docs/evaluation.md).
 
-![risk trajectories](reports/figures/risk_trajectories.png)
+<p align="center">
+<img width="999" height="488" alt="risk_trajectories" src="https://github.com/user-attachments/assets/2c310fbd-e5f9-47ca-b11f-8c0f2fafc121" />
+</p>
 
 ### Equity audit
 
@@ -128,9 +160,13 @@ The model failure analysis reads the stored blind predictions and does not score
 | Held out sites G and H | 28,951 | 44 min | 26.9% | 8 of 8 |
 | Sites A to F in 2025 | 27,056 | 46 min | 24.8% | 7 of 8 |
 
-![door to analgesia](reports/figures/door_to_analgesia.png)
+<p align="center">
+<img width="1200" height="488" alt="door_to_analgesia" src="https://github.com/user-attachments/assets/d588be68-05a7-49e9-9da4-4a055e1105a8" />
+</p>
 
-![effect recovery](reports/figures/effect_recovery.png)
+<p align="center">
+<img width="1421" height="528" alt="effect_recovery" src="https://github.com/user-attachments/assets/778b018d-ee86-468f-acc9-9e36e9101793" />
+</p>
 
 The adjusted regression recovers 23 of 24 injected effects within their 95% intervals; the miss is crowding in 2025 (estimate 0.446, interval 0.413 to 0.480, true 0.48). The audit also found all 765 pethidine administrations in development data, every one at a non specialist site with no plan visible, and estimates that making every existing plan visible at arrival would raise the share treated within 30 minutes from 25.9% to 28.7%, and from 26.9% to 31.2% at the held out sites.
 
