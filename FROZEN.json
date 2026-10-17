@@ -1,0 +1,29 @@
+{
+  "frozen_at": "2026-10-17T09:26:58+00:00",
+  "generator_seed": 20261017,
+  "attendances_sha256": "554de9bb90a738aa14bbca861285894e3054926bef119ae86d7d8b8fd331ca22",
+  "files": {
+    "scenarios_dev": "26b3364f3b9d31aded2f674be82e94deba8162a096dcd4973d5101e5e18ae322",
+    "scenarios_blind": "df65c08402d13fc0ac38f9113df5b21d1b2383ef1d21cd5fcb11f45bdcd8ca29",
+    "questions_dev": "00cd3d5fb4b4641de5a5aafaa1d8c3fd17e98fdc975b62890e7052e90e3ef111",
+    "questions_blind": "a0d7918317c0060a133581d18b0e00043abb91d4b1b34ff8beed4d8141018be2",
+    "split_ids": "fc5b645686ba8c88a0ae50cdd2c99023648bd3fb06ff2d82c495cf566157e612"
+  },
+  "blind_definition": {
+    "sites": [
+      "G",
+      "H"
+    ],
+    "from": "2025-01-01"
+  },
+  "counts": {
+    "dev_attendances": 117254,
+    "blind_site_attendances": 31590,
+    "blind_temporal_attendances": 29391,
+    "scenarios_dev": 800,
+    "scenarios_blind": 800,
+    "questions_dev": 116,
+    "questions_blind": 58
+  },
+  "combined_sha256": "2e54d11f4edba648baed2d76b7bc44ede92898ddaf4ac6d7abb4829036feaccd"
+}

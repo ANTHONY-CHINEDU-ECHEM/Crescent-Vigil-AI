@@ -1,0 +1,14 @@
+services:
+  crescent:
+    build: .
+    ports: ["8000:8000"]
+    environment:
+      CRESCENT_LLM: ${CRESCENT_LLM:-}
+      OLLAMA_URL: http://ollama:11434
+  ollama:
+    image: ollama/ollama:0.3.14
+    profiles: ["llm"]
+    ports: ["11434:11434"]
+    volumes: ["ollama:/root/.ollama"]
+volumes:
+  ollama: {}

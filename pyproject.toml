@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crescent-vigil"
+version = "1.0.0"
+description = "Time critical decision support for sickle cell vaso occlusive crises: care plan first retrieval, an acute chest syndrome deterioration model and an analgesia equity audit."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=1.26", "pandas>=2.1", "pyarrow>=14", "duckdb>=1.0", "scikit-learn>=1.4", "scipy>=1.11",
+  "matplotlib>=3.8", "fastapi>=0.110", "uvicorn>=0.29", "httpx>=0.27", "pydantic>=2.6", "joblib>=1.3",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+include = ["crescent_vigil*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

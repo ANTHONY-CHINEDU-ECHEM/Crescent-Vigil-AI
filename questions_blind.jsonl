@@ -1,0 +1,58 @@
+{"qid": "Q003", "gold": ["G001", "G049"], "minute": 35.0, "text": "patient came in 35 min ago with a sickle crisis and nothing given yet, are we late", "split": "blind"}
+{"qid": "Q006", "gold": ["G002"], "minute": null, "text": "is it one hour or half an hour for the first dose of pain relief", "split": "blind"}
+{"qid": "Q009", "gold": ["G003"], "minute": 15.0, "text": "patient has an individual analgesia plan, should the generic pathway override it", "split": "blind"}
+{"qid": "Q012", "gold": ["G004"], "minute": 5.0, "text": "patient already took codeine at home, does that matter before the first dose", "split": "blind"}
+{"qid": "Q015", "gold": ["G005", "G041"], "minute": null, "text": "colleague thinks the patient is exaggerating pain, what does guidance say", "split": "blind"}
+{"qid": "Q018", "gold": ["G006"], "minute": 10.0, "text": "is a strong opioid bolus appropriate for a severe crisis", "split": "blind"}
+{"qid": "Q021", "gold": ["G007"], "minute": null, "text": "doctor wants to prescribe pethidine, is that ok", "split": "blind"}
+{"qid": "Q024", "gold": ["G008", "G009"], "minute": 15.0, "text": "which non opioid painkillers can be added", "split": "blind"}
+{"qid": "Q027", "gold": ["G009"], "minute": null, "text": "NSAID contraindications in sickle cell crisis", "split": "blind"}
+{"qid": "Q030", "gold": ["G010", "G011"], "minute": 40.0, "text": "reassessment interval before the pain is controlled", "split": "blind"}
+{"qid": "Q033", "gold": ["G011", "G044"], "minute": 100.0, "text": "which vital signs must be tracked after the opioid was given", "split": "blind"}
+{"qid": "Q036", "gold": ["G012"], "minute": 240.0, "text": "possible opioid toxicity, what should we do", "split": "blind"}
+{"qid": "Q039", "gold": ["G013"], "minute": 75.0, "text": "inadequate relief after initial opioid, who should be involved", "split": "blind"}
+{"qid": "Q042", "gold": ["G014"], "minute": 800.0, "text": "opioids not controlling pain after a day, adjuvant options", "split": "blind"}
+{"qid": "Q045", "gold": ["G015", "G037"], "minute": 170.0, "text": "when should specialist haematology see an admitted patient", "split": "blind"}
+{"qid": "Q048", "gold": ["G016"], "minute": 240.0, "text": "risk of giving too much IV fluid", "split": "blind"}
+{"qid": "Q051", "gold": ["G017"], "minute": null, "text": "when is transfusion appropriate in a pain crisis", "split": "blind"}
+{"qid": "Q054", "gold": ["G018"], "minute": 900.0, "text": "back pain admission, any breathing exercise recommendation", "split": "blind"}
+{"qid": "Q057", "gold": ["G019"], "minute": null, "text": "what makes it acute chest syndrome rather than just chest pain", "split": "blind"}
+{"qid": "Q060", "gold": ["G020"], "minute": 2200.0, "text": "is chest syndrome more likely in the first few days after admission", "split": "blind"}
+{"qid": "Q063", "gold": ["G021", "G046"], "minute": 1700.0, "text": "what does a falling saturation mean in an inpatient with sickle cell", "split": "blind"}
+{"qid": "Q066", "gold": ["G022"], "minute": 10.0, "text": "presenting with chest symptoms, does acute chest syndrome need excluding", "split": "blind"}
+{"qid": "Q069", "gold": ["G023"], "minute": null, "text": "first line management once acute chest syndrome is diagnosed", "split": "blind"}
+{"qid": "Q072", "gold": ["G024"], "minute": null, "text": "when is exchange transfusion needed for chest syndrome", "split": "blind"}
+{"qid": "Q075", "gold": ["G025"], "minute": 2800.0, "text": "patient tiring with worsening chest syndrome", "split": "blind"}
+{"qid": "Q078", "gold": ["G026"], "minute": 2000.0, "text": "sedation from opioids and risk of hypoventilation", "split": "blind"}
+{"qid": "Q081", "gold": ["G027", "G028"], "minute": 40.0, "text": "fever in sickle cell, why is it urgent", "split": "blind"}
+{"qid": "Q084", "gold": ["G028"], "minute": null, "text": "local fever cut off versus the NHLBI threshold", "split": "blind"}
+{"qid": "Q087", "gold": ["G029"], "minute": 70.0, "text": "timing of antibiotics in suspected sepsis", "split": "blind"}
+{"qid": "Q090", "gold": ["G030", "G031"], "minute": 20.0, "text": "possible stroke in an adult with sickle cell disease", "split": "blind"}
+{"qid": "Q093", "gold": ["G031"], "minute": null, "text": "stroke management specific to sickle cell", "split": "blind"}
+{"qid": "Q096", "gold": ["G032"], "minute": 10.0, "text": "when does priapism need urology", "split": "blind"}
+{"qid": "Q099", "gold": ["G033", "G034"], "minute": 70.0, "text": "acute anaemia with low reticulocytes", "split": "blind"}
+{"qid": "Q102", "gold": ["G034"], "minute": null, "text": "how far below steady state Hb counts as significant here", "split": "blind"}
+{"qid": "Q105", "gold": ["G035"], "minute": 40.0, "text": "signs of splenic sequestration", "split": "blind"}
+{"qid": "Q108", "gold": ["G036"], "minute": 30.0, "text": "when should surgeons see abdominal pain in sickle cell", "split": "blind"}
+{"qid": "Q111", "gold": ["G038"], "minute": 5.0, "text": "plan not visible on our system at triage", "split": "blind"}
+{"qid": "Q114", "gold": ["G039", "G040"], "minute": null, "text": "out of date pain plan, what to do", "split": "blind"}
+{"qid": "Q117", "gold": ["G041"], "minute": null, "text": "does attending frequently mean drug seeking", "split": "blind"}
+{"qid": "Q120", "gold": ["G042"], "minute": null, "text": "findings of the confidential enquiry about monitoring", "split": "blind"}
+{"qid": "Q123", "gold": ["G043"], "minute": null, "text": "listening to the patient's experience of previous crises", "split": "blind"}
+{"qid": "Q126", "gold": ["G045"], "minute": 1200.0, "text": "how to use the early warning score for this patient", "split": "blind"}
+{"qid": "Q129", "gold": ["G047"], "minute": 2200.0, "text": "reduced air entry developed overnight", "split": "blind"}
+{"qid": "Q132", "gold": ["G048"], "minute": 20.0, "text": "should we compare the blood count to the usual values", "split": "blind"}
+{"qid": "Q135", "gold": ["G050", "G051"], "minute": 15.0, "text": "ways to speed up the first analgesic dose", "split": "blind"}
+{"qid": "Q138", "gold": ["G052"], "minute": 3000.0, "text": "before sending home what advice and supply", "split": "blind"}
+{"qid": "Q141", "gold": ["G053"], "minute": null, "text": "disease modifying treatment after repeated chest syndrome", "split": "blind"}
+{"qid": "Q144", "gold": ["G054"], "minute": null, "text": "updating the care plan at discharge", "split": "blind"}
+{"qid": "Q147", "gold": ["G055"], "minute": 400.0, "text": "what else could cause pain that doesn't fit a crisis", "split": "blind"}
+{"qid": "Q150", "gold": ["G056"], "minute": 1600.0, "text": "ongoing joint pain in an admitted patient", "split": "blind"}
+{"qid": "Q153", "gold": ["G057"], "minute": 1000.0, "text": "splinting from rib pain", "split": "blind"}
+{"qid": "Q156", "gold": ["G058"], "minute": 1600.0, "text": "is it ok to just increase the oxygen", "split": "blind"}
+{"qid": "Q159", "gold": ["G059"], "minute": null, "text": "does this pathway apply to a 12 year old", "split": "blind"}
+{"qid": "Q162", "gold": ["G060"], "minute": null, "text": "who should manage pregnant patients with sickle cell pain", "split": "blind"}
+{"qid": "Q165", "gold": ["G061"], "minute": 1700.0, "text": "how should we respond to a Crescent Vigil alert", "split": "blind"}
+{"qid": "Q168", "gold": ["G062"], "minute": null, "text": "how many milligrams of oxycodone", "split": "blind"}
+{"qid": "Q171", "gold": ["G063"], "minute": null, "text": "mental health concern during a sickle admission", "split": "blind"}
+{"qid": "Q174", "gold": ["G064"], "minute": 15.0, "text": "needle phobic patient route preference", "split": "blind"}

@@ -1,0 +1,116 @@
+{"qid": "Q001", "gold": ["G001", "G049"], "minute": 20.0, "text": "how quickly should the first painkiller be given after someone with sickle cell arrives", "split": "dev"}
+{"qid": "Q002", "gold": ["G001", "G049"], "minute": 25.0, "text": "what is the target time from arrival to first pain relief in a crisis", "split": "dev"}
+{"qid": "Q004", "gold": ["G002"], "minute": null, "text": "does the American haematology guideline use the same timing target for pain relief as NICE", "split": "dev"}
+{"qid": "Q005", "gold": ["G002"], "minute": null, "text": "what does ASH recommend about how soon analgesia should be given in the ED", "split": "dev"}
+{"qid": "Q007", "gold": ["G003"], "minute": 10.0, "text": "she has a personalised pain plan from haematology, do we follow that or the ED protocol", "split": "dev"}
+{"qid": "Q008", "gold": ["G003"], "minute": 10.0, "text": "which painkiller and route should we use when there is a specialist plan on the record", "split": "dev"}
+{"qid": "Q010", "gold": ["G004"], "minute": 5.0, "text": "what should we ask about medicines taken before coming in", "split": "dev"}
+{"qid": "Q011", "gold": ["G004"], "minute": 5.0, "text": "do we need to know what analgesia was used at home for this episode", "split": "dev"}
+{"qid": "Q013", "gold": ["G005", "G041"], "minute": null, "text": "how should we judge how bad the pain is", "split": "dev"}
+{"qid": "Q014", "gold": ["G005", "G041"], "minute": null, "text": "should we trust the patient's own pain score", "split": "dev"}
+{"qid": "Q016", "gold": ["G006"], "minute": 10.0, "text": "severe pain score 9, what class of analgesic is recommended first", "split": "dev"}
+{"qid": "Q017", "gold": ["G006"], "minute": 10.0, "text": "moderate pain not settling after weak painkillers, what next", "split": "dev"}
+{"qid": "Q019", "gold": ["G007"], "minute": null, "text": "can pethidine be used for a sickle cell crisis", "split": "dev"}
+{"qid": "Q020", "gold": ["G007"], "minute": null, "text": "why is pethidine avoided", "split": "dev"}
+{"qid": "Q022", "gold": ["G008", "G009"], "minute": 15.0, "text": "what adjuncts should go alongside opioids", "split": "dev"}
+{"qid": "Q023", "gold": ["G008", "G009"], "minute": 15.0, "text": "should paracetamol be given regularly as well", "split": "dev"}
+{"qid": "Q025", "gold": ["G009"], "minute": null, "text": "can we give ibuprofen if kidney function is poor", "split": "dev"}
+{"qid": "Q026", "gold": ["G009"], "minute": null, "text": "patient has renal impairment, are anti inflammatories ok", "split": "dev"}
+{"qid": "Q028", "gold": ["G010", "G011"], "minute": 45.0, "text": "how often should pain be rechecked after the first dose", "split": "dev"}
+{"qid": "Q029", "gold": ["G010", "G011"], "minute": 50.0, "text": "after giving morphine when do we reassess", "split": "dev"}
+{"qid": "Q031", "gold": ["G011", "G044"], "minute": 120.0, "text": "what observations are needed after opioids", "split": "dev"}
+{"qid": "Q032", "gold": ["G011", "G044"], "minute": 90.0, "text": "monitoring requirements after strong analgesia", "split": "dev"}
+{"qid": "Q034", "gold": ["G012"], "minute": 180.0, "text": "respiratory rate has dropped to 9 and patient is drowsy after morphine", "split": "dev"}
+{"qid": "Q035", "gold": ["G012"], "minute": 200.0, "text": "patient very sleepy with slow breathing after opioid doses", "split": "dev"}
+{"qid": "Q037", "gold": ["G013"], "minute": 70.0, "text": "pain still 9 out of 10 an hour after the first dose", "split": "dev"}
+{"qid": "Q038", "gold": ["G013"], "minute": 60.0, "text": "first dose not working, what is the next step", "split": "dev"}
+{"qid": "Q040", "gold": ["G014"], "minute": 600.0, "text": "pain refractory to opioids on the ward, any other options", "split": "dev"}
+{"qid": "Q041", "gold": ["G014"], "minute": 700.0, "text": "is ketamine used in sickle cell pain", "split": "dev"}
+{"qid": "Q043", "gold": ["G015", "G037"], "minute": 150.0, "text": "patient being admitted, who needs to be told", "split": "dev"}
+{"qid": "Q044", "gold": ["G015", "G037"], "minute": 160.0, "text": "do we need to inform the haematologists on admission", "split": "dev"}
+{"qid": "Q046", "gold": ["G016"], "minute": 200.0, "text": "should we give intravenous fluids to everyone in crisis", "split": "dev"}
+{"qid": "Q047", "gold": ["G016"], "minute": 220.0, "text": "fluid management in a painful episode", "split": "dev"}
+{"qid": "Q049", "gold": ["G017"], "minute": null, "text": "should we transfuse for an uncomplicated pain crisis", "split": "dev"}
+{"qid": "Q050", "gold": ["G017"], "minute": null, "text": "is blood transfusion indicated for a simple vaso occlusive episode", "split": "dev"}
+{"qid": "Q052", "gold": ["G018"], "minute": 600.0, "text": "how can we prevent chest syndrome in admitted pain patients", "split": "dev"}
+{"qid": "Q053", "gold": ["G018"], "minute": 800.0, "text": "should admitted patients use an incentive spirometer", "split": "dev"}
+{"qid": "Q055", "gold": ["G019"], "minute": null, "text": "how is acute chest syndrome defined", "split": "dev"}
+{"qid": "Q056", "gold": ["G019"], "minute": null, "text": "diagnostic criteria for acute chest syndrome", "split": "dev"}
+{"qid": "Q058", "gold": ["G020"], "minute": 2000.0, "text": "when does acute chest syndrome usually develop during an admission", "split": "dev"}
+{"qid": "Q059", "gold": ["G020"], "minute": 2400.0, "text": "day two of admission, what complication should we watch for", "split": "dev"}
+{"qid": "Q061", "gold": ["G021", "G046"], "minute": 1500.0, "text": "sats have dropped from 97 to 93 on the ward", "split": "dev"}
+{"qid": "Q062", "gold": ["G021", "G046"], "minute": 1600.0, "text": "oxygen saturation falling below the patient's usual level", "split": "dev"}
+{"qid": "Q064", "gold": ["G022"], "minute": 10.0, "text": "patient arrives with chest pain and cough", "split": "dev"}
+{"qid": "Q065", "gold": ["G022"], "minute": 15.0, "text": "breathless on arrival, what investigations first", "split": "dev"}
+{"qid": "Q067", "gold": ["G023"], "minute": null, "text": "antibiotic choice for acute chest syndrome", "split": "dev"}
+{"qid": "Q068", "gold": ["G023"], "minute": null, "text": "how is acute chest syndrome treated", "split": "dev"}
+{"qid": "Q070", "gold": ["G024"], "minute": null, "text": "role of transfusion in acute chest syndrome", "split": "dev"}
+{"qid": "Q071", "gold": ["G024"], "minute": null, "text": "exchange versus simple transfusion for chest syndrome", "split": "dev"}
+{"qid": "Q073", "gold": ["G025"], "minute": 2500.0, "text": "oxygen requirement rising with chest syndrome, should ICU be involved", "split": "dev"}
+{"qid": "Q074", "gold": ["G025"], "minute": 2600.0, "text": "when to escalate acute chest syndrome to critical care", "split": "dev"}
+{"qid": "Q076", "gold": ["G026"], "minute": 1800.0, "text": "can too much opioid make chest problems worse", "split": "dev"}
+{"qid": "Q077", "gold": ["G026"], "minute": 1900.0, "text": "balancing analgesia and breathing in acute chest syndrome", "split": "dev"}
+{"qid": "Q079", "gold": ["G027", "G028"], "minute": 30.0, "text": "temperature is 38.6 in a sickle cell patient", "split": "dev"}
+{"qid": "Q080", "gold": ["G027", "G028"], "minute": 30.0, "text": "febrile patient with sickle cell disease, what tests and treatment", "split": "dev"}
+{"qid": "Q082", "gold": ["G028"], "minute": null, "text": "what temperature triggers the sepsis screen in this system", "split": "dev"}
+{"qid": "Q083", "gold": ["G028"], "minute": null, "text": "is the fever threshold 38 or 38.5", "split": "dev"}
+{"qid": "Q085", "gold": ["G029"], "minute": 60.0, "text": "suspected infection, how do we assess for sepsis", "split": "dev"}
+{"qid": "Q086", "gold": ["G029"], "minute": 60.0, "text": "sepsis risk in sickle cell patients", "split": "dev"}
+{"qid": "Q088", "gold": ["G030", "G031"], "minute": 10.0, "text": "new arm weakness and slurred speech", "split": "dev"}
+{"qid": "Q089", "gold": ["G030", "G031"], "minute": 15.0, "text": "patient with sickle cell has a seizure and headache", "split": "dev"}
+{"qid": "Q091", "gold": ["G031"], "minute": null, "text": "treatment for acute stroke in sickle cell", "split": "dev"}
+{"qid": "Q092", "gold": ["G031"], "minute": null, "text": "is exchange transfusion used for stroke", "split": "dev"}
+{"qid": "Q094", "gold": ["G032"], "minute": 5.0, "text": "man with sickle cell and a prolonged erection", "split": "dev"}
+{"qid": "Q095", "gold": ["G032"], "minute": 5.0, "text": "priapism for five hours, what now", "split": "dev"}
+{"qid": "Q097", "gold": ["G033", "G034"], "minute": 60.0, "text": "haemoglobin much lower than usual", "split": "dev"}
+{"qid": "Q098", "gold": ["G033", "G034"], "minute": 60.0, "text": "Hb has dropped by 2.5 from steady state", "split": "dev"}
+{"qid": "Q100", "gold": ["G034"], "minute": null, "text": "what haemoglobin drop does this system flag", "split": "dev"}
+{"qid": "Q101", "gold": ["G034"], "minute": null, "text": "threshold for haemoglobin fall alert", "split": "dev"}
+{"qid": "Q103", "gold": ["G035"], "minute": 30.0, "text": "left sided abdominal pain with a large spleen and falling Hb", "split": "dev"}
+{"qid": "Q104", "gold": ["G035"], "minute": 30.0, "text": "enlarging spleen in HbSC patient", "split": "dev"}
+{"qid": "Q106", "gold": ["G036"], "minute": 20.0, "text": "abdominal pain in sickle cell, could it be something else", "split": "dev"}
+{"qid": "Q107", "gold": ["G036"], "minute": 25.0, "text": "right upper quadrant pain, is it just a crisis", "split": "dev"}
+{"qid": "Q109", "gold": ["G038"], "minute": 5.0, "text": "the care plan exists but we can't find it in the ED record", "split": "dev"}
+{"qid": "Q110", "gold": ["G038"], "minute": 5.0, "text": "why does plan accessibility matter in the emergency department", "split": "dev"}
+{"qid": "Q112", "gold": ["G039", "G040"], "minute": null, "text": "plan was last reviewed two years ago, can we still use it", "split": "dev"}
+{"qid": "Q113", "gold": ["G039", "G040"], "minute": null, "text": "how often should care plans be updated", "split": "dev"}
+{"qid": "Q115", "gold": ["G041"], "minute": null, "text": "patient attends very often, should we be cautious with opioids", "split": "dev"}
+{"qid": "Q116", "gold": ["G041"], "minute": null, "text": "frequent attender label and pain relief delays", "split": "dev"}
+{"qid": "Q118", "gold": ["G042"], "minute": null, "text": "what did the NCEPOD sickle crisis report find", "split": "dev"}
+{"qid": "Q119", "gold": ["G042"], "minute": null, "text": "national enquiry lessons on deaths in sickle cell", "split": "dev"}
+{"qid": "Q121", "gold": ["G043"], "minute": null, "text": "should we involve the patient in analgesia choices", "split": "dev"}
+{"qid": "Q122", "gold": ["G043"], "minute": null, "text": "patient says morphine never works for them", "split": "dev"}
+{"qid": "Q124", "gold": ["G045"], "minute": 1000.0, "text": "early warning score in sickle cell patients", "split": "dev"}
+{"qid": "Q125", "gold": ["G045"], "minute": 1100.0, "text": "NEWS score seems falsely reassuring", "split": "dev"}
+{"qid": "Q127", "gold": ["G047"], "minute": 2000.0, "text": "new crackles on the ward, what imaging", "split": "dev"}
+{"qid": "Q128", "gold": ["G047"], "minute": 2100.0, "text": "chest X ray timing during admission", "split": "dev"}
+{"qid": "Q130", "gold": ["G048"], "minute": 15.0, "text": "which bloods at presentation", "split": "dev"}
+{"qid": "Q131", "gold": ["G048"], "minute": 15.0, "text": "blood tests for a sickle crisis on arrival", "split": "dev"}
+{"qid": "Q133", "gold": ["G050", "G051"], "minute": 10.0, "text": "can nurses give the first dose of pain relief", "split": "dev"}
+{"qid": "Q134", "gold": ["G050", "G051"], "minute": 10.0, "text": "ED is crowded and no doctor available to prescribe analgesia", "split": "dev"}
+{"qid": "Q136", "gold": ["G052"], "minute": 3000.0, "text": "patient ready to go home, what is needed", "split": "dev"}
+{"qid": "Q137", "gold": ["G052"], "minute": 3000.0, "text": "discharge checklist after a crisis", "split": "dev"}
+{"qid": "Q139", "gold": ["G053"], "minute": null, "text": "patient has had many crises this year, any long term treatment to consider", "split": "dev"}
+{"qid": "Q140", "gold": ["G053"], "minute": null, "text": "who should be referred for hydroxyurea", "split": "dev"}
+{"qid": "Q142", "gold": ["G054"], "minute": null, "text": "should the plan be updated after admission", "split": "dev"}
+{"qid": "Q143", "gold": ["G054"], "minute": null, "text": "learning from this admission for the next one", "split": "dev"}
+{"qid": "Q145", "gold": ["G055"], "minute": 300.0, "text": "pain is different from her usual crises", "split": "dev"}
+{"qid": "Q146", "gold": ["G055"], "minute": 300.0, "text": "atypical pain not responding as expected", "split": "dev"}
+{"qid": "Q148", "gold": ["G056"], "minute": 1500.0, "text": "persistent hip pain not settling", "split": "dev"}
+{"qid": "Q149", "gold": ["G056"], "minute": 1500.0, "text": "could shoulder pain be avascular necrosis", "split": "dev"}
+{"qid": "Q151", "gold": ["G057"], "minute": 900.0, "text": "chest wall pain and shallow breathing", "split": "dev"}
+{"qid": "Q152", "gold": ["G057"], "minute": 900.0, "text": "why does analgesia help breathing", "split": "dev"}
+{"qid": "Q154", "gold": ["G058"], "minute": 1500.0, "text": "when should oxygen be given", "split": "dev"}
+{"qid": "Q155", "gold": ["G058"], "minute": 1500.0, "text": "hypoxia in sickle cell inpatient", "split": "dev"}
+{"qid": "Q157", "gold": ["G059"], "minute": null, "text": "can this be used for children", "split": "dev"}
+{"qid": "Q158", "gold": ["G059"], "minute": null, "text": "paediatric sickle cell patient in ED", "split": "dev"}
+{"qid": "Q160", "gold": ["G060"], "minute": null, "text": "pregnant woman in sickle crisis", "split": "dev"}
+{"qid": "Q161", "gold": ["G060"], "minute": null, "text": "sickle cell pain in pregnancy", "split": "dev"}
+{"qid": "Q163", "gold": ["G061"], "minute": 1500.0, "text": "what does the deterioration alert mean", "split": "dev"}
+{"qid": "Q164", "gold": ["G061"], "minute": 1600.0, "text": "model says high risk of chest syndrome, what should I do", "split": "dev"}
+{"qid": "Q166", "gold": ["G062"], "minute": null, "text": "what dose of morphine should I give", "split": "dev"}
+{"qid": "Q167", "gold": ["G062"], "minute": null, "text": "can the system calculate an opioid dose", "split": "dev"}
+{"qid": "Q169", "gold": ["G063"], "minute": null, "text": "patient says they want to end it all", "split": "dev"}
+{"qid": "Q170", "gold": ["G063"], "minute": null, "text": "patient in crisis expresses self harm thoughts", "split": "dev"}
+{"qid": "Q172", "gold": ["G064"], "minute": 10.0, "text": "patient prefers subcutaneous rather than IV", "split": "dev"}
+{"qid": "Q173", "gold": ["G064"], "minute": 10.0, "text": "difficult venous access, which route", "split": "dev"}
