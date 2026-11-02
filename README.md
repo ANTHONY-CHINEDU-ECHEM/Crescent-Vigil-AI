@@ -35,7 +35,7 @@ No open, patient level dataset of sickle cell emergency attendances exists, so t
 
 The demo runs entirely in the browser from an embedded bundle of 271 attendances (eleven teaching cases chosen from the blind set and 260 evaluation scenarios), with no server and no network calls after loading apart from fonts.
 
-**[Open Crescent Vigil AI](https://claude.ai/artifact/6pDNkdghw7knNrWJiibk88)**
+
 
 To run the full service with all 178,235 attendances, see Running it below.
 
